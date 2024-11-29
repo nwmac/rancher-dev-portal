@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  portal:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.9.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.2
+    created: "2024-11-29T11:03:30.212354957Z"
+    description: Rancher Developer Portal
+    digest: 7fef6965bb55eb4be088e883113b9057ca32afe0b9cbb962c9cd534db028b02a
+    name: portal
+    type: application
+    urls:
+    - assets/portal/portal-0.1.2.tgz
+    version: 0.1.2
+generated: "2024-11-29T11:03:30.212039758Z"

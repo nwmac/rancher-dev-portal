@@ -1,0 +1,2 @@
+(("undefined"!==typeof self?self:this)["webpackChunkportal_0_1_3"]=("undefined"!==typeof self?self:this)["webpackChunkportal_0_1_3"]||[]).push([[37],{9037:function(e){const t=[{product:{devportal:"Rancher Developer Portal"}}];e.exports=t.length<=1?t[0]:t}}]);
+//# sourceMappingURL=portal-0.1.3.umd.min.37.js.map

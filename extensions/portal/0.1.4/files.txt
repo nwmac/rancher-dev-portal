@@ -1,0 +1,6 @@
+plugin/img/icon.b7775008.svg
+plugin/package.json
+plugin/portal-0.1.4.umd.min.37.js
+plugin/portal-0.1.4.umd.min.37.js.map
+plugin/portal-0.1.4.umd.min.js
+plugin/portal-0.1.4.umd.min.js.map

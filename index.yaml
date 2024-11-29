@@ -8,6 +8,27 @@ entries:
       catalog.cattle.io/namespace: cattle-ui-plugin-system
       catalog.cattle.io/os: linux
       catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.4
+    created: "2024-11-29T11:22:03.527115832Z"
+    description: Rancher Developer Portal powered by Backstage
+    digest: d3bbf14410c9f6f0cc85de79f89b26de49bd58fd085a11a5f00e203a39f82097
+    icon: https://raw.githubusercontent.com/nwmac/rancher-dev-portal/refs/heads/main/pkg/portal/assets/icon.svg
+    name: portal
+    type: application
+    urls:
+    - assets/portal/portal-0.1.4.tgz
+    version: 0.1.4
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/display-name: Rancher Developer Portal
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
       catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.9.0-0'
       catalog.cattle.io/scope: management
       catalog.cattle.io/ui-component: plugins
@@ -40,4 +61,4 @@ entries:
     urls:
     - assets/portal/portal-0.1.2.tgz
     version: 0.1.2
-generated: "2024-11-29T11:16:06.605163263Z"
+generated: "2024-11-29T11:22:03.526768386Z"

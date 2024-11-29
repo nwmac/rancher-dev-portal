@@ -1,6 +1,6 @@
 {
   "name": "portal",
-  "description": "Rancher Developer Portal",
+  "description": "Rancher Developer Portal powered by Backstage",
   "version": "0.1.4",
   "private": false,
   "rancher": {
@@ -9,6 +9,7 @@
       "catalog.cattle.io/rancher-version": ">= 2.10.0"
     }
   },
+  "icon": "https://raw.githubusercontent.com/nwmac/rancher-dev-portal/refs/heads/main/pkg/portal/assets/icon.svg",
   "scripts": {},
   "engines": {
     "node": ">=20"
